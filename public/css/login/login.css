@@ -1,0 +1,99 @@
+.loginButton,
+.registerButton {
+  width:120px;
+  background:#3399cc;
+  display:block;
+  margin:0 auto;
+  margin-top:1%;
+  padding:10px;
+  text-align:center;
+  text-decoration:none;
+  color:#fff;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+.loginButton:hover, 
+.registerButton:hover {
+  background:#2288bb;
+}
+
+#login ,
+#register {
+  width:400px;
+  margin:0 auto;
+  margin-top:8px;
+  margin-bottom:2%;
+  transition:opacity 1s;
+  -webkit-transition:opacity 1s;
+}
+
+#triangle {
+  width:0;
+  border-top:12x solid transparent;
+  border-right:12px solid transparent;
+  border-bottom:12px solid #3399cc;
+  border-left:12px solid transparent;
+  margin:0 auto;
+}
+
+#login h1,
+#register h1 {
+  background:#3399cc;
+  padding:20px 0;
+  font-size:140%;
+  font-weight:300;
+  text-align:center;
+  color:#fff;
+}
+
+.loginWrapper form,
+.registerWrapper form {
+  background:#f0f0f0;
+  padding:6% 4%;
+}
+
+.loginWrapper input[type="email"],.loginWrapper input[type="password"], .loginWrapper input[type="text"],
+.registerWrapper input[type="email"], .registerWrapper input[type="password"], .registerWrapper input[type="text"],{
+  width:100%;
+  background:#fff;
+  margin-bottom:4%;
+  border:1px solid #ccc;
+  padding:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:95%;
+  color:#555;
+}
+
+.loginWrapper input[type="submit"],
+.registerWrapper input[type="submit"]{
+  width:100%;
+  background:#3399cc;
+  border:0;
+  padding:4%;
+  font-family:'Open Sans',sans-serif;
+  font-size:100%;
+  color:#fff;
+  cursor:pointer;
+  transition:background .3s;
+  -webkit-transition:background .3s;
+}
+
+.loginWrapper input[type="submit"]:hover,
+.registerWrapper input[type="submit"]:hover {
+  background:#2288bb;
+}
+
+.loginWrapper input:focus, .loginWrapper textarea:focus,
+.registerWrapper input:focus, .registerWrapper textarea:focus {
+	box-shadow: 0px 0px 2px 2px #3399cc;
+}
+
+.mobile .login . wrapper {
+    margin-top: 60px;
+}
+
+.mobile .login #login, .mobile .login #register {
+    width: 100%;
+}

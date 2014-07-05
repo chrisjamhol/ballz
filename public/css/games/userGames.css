@@ -1,0 +1,15 @@
+.allGames .allGamesListWrapper {
+    margin: 15px;
+}
+
+.allGames .allGamesList {
+    cursor: pointer;
+    list-style: none;
+}
+
+    .allGames .allGamesList a {
+        color: black;
+        text-decoration: none;
+    }
+
+.mobile .gameFeed .action img {max-width: 100%;}
